@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AlumniGrad - регистрация на студент</title>
+    <link rel="stylesheet" href="./register_student.css">
+    <link rel="shortcut icon" type="image/png" href="pic1.png"/>
+    <script defer src="register_student.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <td><img src="pic1.png" height="200" width="200"></td>
+                    <td>
+            <form id="register-form">
+                    <h1 id="reg-heading">Регистрация в AlumniGrad</h1>
+
+                    <label for = "username">Потребителско име</label>
+                    <br>
+                    <input id = "username" name = "username" type = "text">
+                    <p id="errUsername" class="errorMsg"></p>
+
+                    <label for = "first-name">Име</label>
+                    <br>
+                    <input id = "first-name" name = "first-name" type = "text">
+                    <p id="errFirstName" class="errorMsg"></p>
+
+                    <label for = "family-name">Фамилия</label>
+                    <br>
+                    <input id = "family-name" name = "family-name" type = "text">
+                    <p id="errFamilyName" class="errorMsg"></p>
+
+                    <label for = "email">Email</label>
+                    <br>
+                    <input id = "email" name = "email" type = "text">
+                    <p id="errEmail" class="errorMsg"></p>
+
+                    <label for = "password">Парола</label>
+                    <br>
+                    <input id = "password" name = "password" type = "password">
+                    <p id="errPassword" class="errorMsg"></p>
+
+                    <label for = "faculty-number">Факултетен номер</label>
+                    <br>
+                    <input id = "faculty-number" name = "faculty-number" type = "text">
+                    <p id="errFacultyNumber" class="errorMsg"></p>
+
+                    <label for = "major">Специалност</label>
+                    <br>
+                    <input id = "major" name = "major" type = "text">
+                    <p id="errMajor" class="errorMsg"></p>
+
+                    <label for = "degree">Степен</label>
+                    <br>
+                    <select id="degree" name="degree">
+                        <option value="бакалавър">бакалавър</option>
+                        <option value="магистър">магистър</option>
+                        <option value="докторант">докторант</option>
+                    </select>
+                    <p id="errDegree" class="errorMsg"></p>
+
+                    <label for = "phone-number">Мобилен телефон</label>
+                    <br>
+                    <input id = "phone-number" name = "phone-number" type = "text">
+                    <p id="errPhoneNumber" class="errorMsg"></p>
+
+                    <button id = "register-btn" type = "submit">Регистрирай</button>
+                    <p id="user-message"></p>
+            </form>
+            <div id="successful-registration" class="success">
+                <div class="success-content">
+                <div class="success-message">
+                <span class="login">Вход &rArr;</span>
+                <h3>Успешна регистрация!</h3>
+            </div>
+            </td>
+            </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>

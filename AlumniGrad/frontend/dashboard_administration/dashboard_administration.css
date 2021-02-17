@@ -1,0 +1,130 @@
+body {
+    background-color: #00bfff;
+
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#middlepart {
+    background-color: white;
+    padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+#toppart{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-family: Papyrus, fantasy, sans-serif;
+    font-size: 80px;
+}
+
+#logout-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    background-color: #00bfff;
+}
+
+#toga-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    background-color: #00bfff;
+}
+
+#prize-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    background-color: #00bfff;
+}
+
+#togarettitle {
+    cursor: pointer;
+    user-select: none;
+}
+
+#prizetitle{
+    cursor: pointer;
+    user-select: none;
+}
+
+#togaForm {
+    display: none;
+}
+
+#prizeForm {
+    display: none;
+}
+
+#studmenu {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#numbermenu {
+  text-align: center;
+}
+
+#totReg{
+    display: none;
+}
+
+#plusReg{
+    display: none;
+}
+
+#negReg{
+    display: none;
+}
+
+#stat-guests {
+    display: none;
+}
+
+#stat-reg {
+    cursor: pointer;
+    user-select: none;
+}
+
+#set1{
+    display: flex;
+    justify-content: space-around;
+}
+
+#set2{
+    display: flex;
+    justify-content: space-around;
+}
+
+#set3{
+    display: flex;
+    justify-content: space-around;
+}
+#set4{
+    display: flex;
+    justify-content: space-around;
+}
+
+.setBtn{
+    background-color: #00bfff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 18px;
+    height: 32px;
+    width: 450px;
+    margin: 20px;
+}
+
+
+

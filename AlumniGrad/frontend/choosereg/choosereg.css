@@ -1,0 +1,35 @@
+body {
+    background: #00bfff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table{
+    background-color: white;
+    width: 25%;
+    margin: 8% auto;
+    border: 3px solid #0086b3;
+    border-radius: 10px;
+    padding: 12px;
+    text-align: center;
+}
+
+button{
+    width: 70%;
+    padding: 8px;
+    margin: 8px;
+    background-color: #00bfff;
+    font-size: 16px;
+}
+
+#q1{
+    font-size: 18px;
+}
+
+#h{
+    font-size: 24px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}

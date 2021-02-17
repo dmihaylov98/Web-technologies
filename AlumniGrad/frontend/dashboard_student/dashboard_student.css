@@ -1,0 +1,105 @@
+body {
+    background-color: #00bfff;
+    
+    margin-left: 125px;
+    margin-right: 125px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+#middlepart {
+    background-color: white;
+    padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+#toppart{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#title{
+    font-family: Papyrus, fantasy, sans-serif;
+    font-size: 80px;
+}
+
+#logout-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 15px;
+    background-color: #00bfff;
+}
+
+#title-notify{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#speech-notify{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#togaandhat-notify{
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+#part-notify{
+    text-align: center;
+}
+
+
+#participate-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    background-color: #00bfff;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#togaandhat-btn{
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 16px;
+    background-color: #00bfff;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+#speechdiv{
+    display: none;
+}
+
+#togaandhatdiv{
+    display: none;
+}
+
+#fictive-fn{
+    display: none;
+}
+
+#fictive-mark{
+    display: none;
+}

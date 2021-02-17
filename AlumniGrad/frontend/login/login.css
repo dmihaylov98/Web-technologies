@@ -1,0 +1,64 @@
+body {
+    background: #00bfff;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+table{
+    background-color: white;
+    width: 38%;
+    margin: 12% auto;
+    border: 3px solid #0086b3;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+td{
+    text-align:center;
+}
+
+#login-heading {
+    margin: 2% 5% 3% 5%;
+	text-align: center;
+    font-size: 24px;
+
+}
+
+input {
+    width: 80%;
+    height: 6%;
+	margin: 2% 10% 2% 10%;
+    padding: 2%;
+	background-color: #f2f2f2;
+}
+
+button {
+    width: 85%;
+    height: 6%;
+	margin: 2% 10% 2% 10%;
+    padding: 2%;
+    background-color: #00bfff;
+    font-size: 18px;
+}
+
+label{
+    width: 80%;
+    height: 6%;
+	margin: 2% 10% 2% 10%;
+    padding: 1%;
+}
+
+#register-message {
+    font-size: 16px;
+}
+
+#register-message a {
+    color: #00bfff;
+    text-decoration: none;
+}
+
+#user-message {
+    text-align: center;
+    color: red;
+    padding: 0;
+    font-size: 14px;
+}

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>AlumniGrad - профил администрация</title>
+        <link rel="shortcut icon" type="image/png" href="pic1.png"/>
+        <link rel="stylesheet" href="./dashboard_administration.css">
+        <script defer src="dashboard_administration.js"></script>
+    </head>
+    <body>
+        <div id="middlepart">
+
+            <ul id="toppart">
+                <li><img src="pic1.png" height="200" width="200"></li>
+                <li id="title">AlumniGrad</li>
+            </ul>
+            <hr>
+            <h3 id="name-surname">Добре дошъл, </h3>
+            <button id="logout-btn" type="submit">Изход</button>
+            <hr>
+            <ul id= "studmenu">
+                <li>
+                    <h3 id = "togarettitle">Отбележи върната тога</h3>
+                    <form id = "togaForm">
+                        <label for = "fn1">Факултетен номер: </label>
+                        <br>
+                        <input type = "text" id = "fn1" name="fn1">
+                        <br>
+                        <br>
+                        <input type = "submit" id = "toga-btn" value = "Въведи">
+                        <p id = "toga-error"></p>
+                    </form>
+                </li>
+                <li>
+                    <h3 id = "prizetitle">Въведи награда</h3>
+                    <form id = "prizeForm">
+                        <label for = "fn2">Факултетен номер: </label>
+                        <br>
+                        <input type = "text" id = "fn2" name="fn2">
+                        <br>
+                        <br>
+                        <label for = "prize1">Награда: </label>
+                        <br>
+                        <textarea id = "prize1" name = "prize1"></textarea>
+                        <br>
+                        <br>
+                        <input type = "submit" id = "prize-btn" value = "Въведи">
+                        <p id = "prize-error"></p>
+                     </form>
+                </li>
+            </ul>
+            <hr>
+
+            <div id= "numbermenu">
+                <h3 id = "stat-reg">Разпределение студенти</h3>
+                <p id = "totReg">Общо регистрирани: </p>
+                <p id = "plusReg">Заявили присъствие: </p>
+                <p id = "negReg">Незаявили присъствие: </p>
+                <p id = "stat-guests">Брой присъстващи студенти и гости в залата: </p>
+                <hr>
+            </div>
+
+            <div id = "buttonsmenu">
+                <div id = "set1">
+                    <button id = "btn-partic" class="setBtn">Списък с участващите</button>
+                    <button id = "btn-sign" class="setBtn">Списък за подписи</button>
+                </div>
+                <div id = "set2">
+                    <button id = "btn-speeches" class="setBtn">Списък за речи</button>
+                    <button id = "btn-prizes" class="setBtn">Списък за награди</button>
+                </div>
+                <div id = "set3">
+                    <button id = "btn-excellent" class="setBtn">Списък с отличници</button>
+                    <button id = "btn-hats" class="setBtn">Списък за шапки</button>
+                </div>
+                <div id = "set4">
+                    <button id = "btn-togaGet" class="setBtn">Списък за вземане на тоги</button>
+                    <button id = "btn-togaRet" class="setBtn">Списък за невърнати тоги</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

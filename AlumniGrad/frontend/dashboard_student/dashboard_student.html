@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+        <title>AlumniGrad - профил студент</title>
+        <link rel="shortcut icon" type="image/png" href="pic1.png"/>
+        <link rel="stylesheet" href="./dashboard_student.css">
+        <script defer src="dashboard_student.js"></script>
+    </head>
+    <body>
+        <div id="middlepart">
+            <ul id="toppart">
+                <li><img src="pic1.png" height="200" width="200"></li>
+                <li id="title">AlumniGrad</li>
+            </ul>
+            <hr>
+            <h3 id="name-surname">Добре дошъл, </h3>
+            <p id = "fn">Факултетен номер: </p>
+            <p id = "major">Специалност: </p>
+            <p id = "degree">Степен: </p>
+            <p id = "mark">Среден успех: </p>
+            <button id="logout-btn" type="submit">Изход</button>
+            <hr>
+            <div id="part-notify">
+                <div>
+                    <h3 id="title-notify">Заявка за участие в церемония по дипломиране</h3>
+                    <label> Да   <input type="radio" id="participate1" name="participate" value = 1> </label> <!-- -->
+                    <label> Не <input type="radio" id="participate2" name="participate" value= 0> </label> <!-- -->
+                    <br>
+                    <button id="participate-btn" type="submit">Заяви</button>
+                    <p id="no-part"></p>
+                    <hr>
+                </div>
+                <div id="togaandhatdiv">
+                    <h3 id="togaandhat-notify">Заявка за тога, шапка и брой места в залата</h3>
+                    <label for="toga">Тога: </label>
+                    <select id="toga" name="toga">
+                        <option value="S">S</option>
+                        <option value="M">M</option>
+                        <option value="L">L</option>
+                        <option value="XL">XL</option>
+                    </select>
+                    <br>
+                    <br>
+                    <label>Шапка: </label>
+                    <label> Да   <input type="radio" id="hat1" name="hat" value=1> </label>
+                    <label> Не <input type="radio" id="hat2" name="hat" value=0> </label>
+                    <br>
+                    <br>
+                    <label for="places">Брой места: </label>
+                    <select id="places" name="places">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                    </select>
+                    <br>
+                    <div id="speechdiv">
+                        <h3 id="speech-notify">Заявка за изнасяне на реч</h3>
+                        <label> Да   <input type="radio" id="speech1" name="speech" value=1> </label>
+                        <label> Не <input type="radio" id="speech2" name="speech" value=0> </label>
+                        <br>
+                    </div>
+                    
+                    <button id="togaandhat-btn" type="submit">Заяви</button>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <p id = "fictive-fn"></p>
+        <p id = "fictive-mark"></p>
+    </body>
+</html>

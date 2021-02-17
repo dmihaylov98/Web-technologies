@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>AlumniGrad - регистрация на служител от администрацията</title>
+    <link rel="stylesheet" href="./register_administration.css">
+    <link rel="shortcut icon" type="image/png" href="pic1.png"/>
+    <script defer src="register_administration.js"></script>
+</head>
+<body>
+    <main>
+        <section>
+            <table>
+                <tr>
+                    <td><img src="pic1.png" height="200" width="200"></td>
+                    <td>
+            <form id="register-form">
+                <h1 id="reg-heading">Регистрация в AlumniGrad</h1>
+
+                <label for = "username">Потребителско име</label>
+                <br>
+                <input id = "username" name = "username" type = "text">
+                <p id="errUsername" class="errorMsg"></p>
+
+                <label for = "first-name">Име</label>
+                <br>
+                <input id = "first-name" name = "first-name" type = "text">
+                <p id="errFirstName" class="errorMsg"></p>
+
+                <label for = "family-name">Фамилия</label>
+                <br>
+                <input id = "family-name" name = "family-name" type = "text">
+                <p id="errFamilyName" class="errorMsg"></p>
+
+                <label for = "email">Email</label>
+                <br>
+                <input id = "email" name = "email" type = "text">
+                <p id="errEmail" class="errorMsg"></p>
+
+                <label for = "password">Парола</label>
+                <br>
+                <input id = "password" name = "password" type = "password">
+                <p id="errPassword" class="errorMsg"></p>
+
+                <label for = "position">Длъжност</label>
+                <br>
+                <input id = "position" name = "position" type = "text">
+                <p id="errPosition" class="errorMsg"></p>
+
+                <button id = "register-btn" type = "submit">Регистрирай</button>
+                <p id="user-message"></p>
+            </form>
+            <div id="successful-registration" class="success">
+                <div class="success-content">
+                <div class="success-message">
+                <span class="login">Вход &rArr;</span>
+                <h3>Успешна регистрация!</h3>
+            </div>
+            </td>
+            </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
